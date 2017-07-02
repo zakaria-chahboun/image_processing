@@ -14,12 +14,16 @@ More details : <a href='https://pillow.readthedocs.io/en/4.2.x/handbook/overview
 
 # Installation :
 
-pipe install 
+pip install Pillow
 
 
-<im src='https://udemy-images.udemy.com/course/750x422/567828_67d0.jpg' width='200px'>
+<img src='https://udemy-images.udemy.com/course/750x422/567828_67d0.jpg' width='200px'>
 
 
 -----------------------
+
+
 zakaria chahboun | 2017
+
+
 -----------------------
