@@ -54,6 +54,14 @@ def main():
 				if color != (0,0,0,0): # Black color
 					pix2[x,y] = (255,0,0) # Red color
 		img2.save('images/test4_change_color.png')
+		
+
+		# ---- Lighting ----
+		img = Image.open('images/avocado.jpg');
+		out = img.point(lambda i: i * 1.4) # multiply each pixel by 1.4
+		out.save('images/test5_ligthing.jpg')
+
+
 
 		# ---- Generate HTML Image ----
 		# img2 = Image.open('images/gnome_logo.png');
